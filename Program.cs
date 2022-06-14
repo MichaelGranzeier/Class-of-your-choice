@@ -53,8 +53,7 @@ while (isRunning)
         case 2:
             car_Service.Fix();
             Console.Clear();
-            Console.WriteLine(car_Service.ServiceNeeds);
-            Console.WriteLine("Press enter to contiue.");
+            Console.WriteLine(car_Service.ServiceNeeds + "\nPress enter to contiue.");
             Console.ReadLine();
             break;
         case 3:
